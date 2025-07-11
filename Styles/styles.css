@@ -1,4 +1,7 @@
-
+*{
+    margin: 0px;
+    padding: 0px;
+}
 /* Google Fonts */
 
 .raleway-normal {
@@ -14,7 +17,10 @@
   /* font-weight: <weight>; */
   font-style: normal;
 }
-
+/* body */
+body{
+    max-width: 1440;
+}
 
 /* nav styles */
 nav{
@@ -22,6 +28,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     margin: 0px 150px;
+    padding: 50px 0px;
 }
 .nav-title{
 font-size: 34px;
@@ -51,6 +58,7 @@ nav ul li a{
 /* Banner */
 .img-banner{
     background-image: url(../Assets/Hero-bg.png);
+    max-width: 1440px;
 }
 .cont-title{
     /* border: 2px solid rebeccapurple; */
@@ -59,7 +67,8 @@ nav ul li a{
 }
 .container{
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
+    
     
 }
 .container-title{
@@ -67,11 +76,89 @@ nav ul li a{
     font-weight: bold;
     color: #252432;
     text-align: center;
+    margin-bottom: 37px;
 }
 .button-2nd{
     display: block;
     margin: auto;
+    
+
+
+    
 }
 div a{
     text-decoration: none;
+}
+/* action Section CSS File */
+.see-action{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 116px 150px;
+width: 1140px;
+
+}
+.see-action-title{
+font-size: 42px;
+font-weight: bold;
+color: #252432;
+}
+.see-action-para{
+    font-size: 24px;
+    color: #252432;
+    opacity: 50%;
+    width: 517px;
+    height: auto;
+    padding: 23px 0px;
+
+}
+.see-action-sec{
+    width: 517px;
+    height: 203px;
+}
+.see-action-active img{
+    width:403px;
+    height: 328px;
+    /* box-sizing: border-box; */
+    /* border: 2px solid red; */
+    border-image: round;
+    border-radius: 48px;
+
+    }
+    /* productive_Section */
+    .pro_title{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+    width: 856px;
+    padding: 50px 142px;
+}
+.productive_user{
+    width: 1140px;
+    height: 306px;
+    border: 1px solid red;
+    margin: 0px 150px;
+    border-radius: 48px;
+}
+.pro_head{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    text-align: center;
+   
+}
+.pro_para{
+    font-size: 20px;
+    color: #000000;
+    opacity: 50%;
+}
+.pro_subsection{
+    text-align: center;
+}
+.pro_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 142px;
 }
