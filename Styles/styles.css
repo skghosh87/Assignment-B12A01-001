@@ -25,6 +25,7 @@ nav{
 }
 .nav-title{
 font-size: 34px;
+font-weight: 800;
 color: #4E47FF;
 }
 nav ul li{
@@ -44,5 +45,33 @@ nav ul li a{
     font-size: 16px;
     font-weight: bold;
 }
-
- 
+.btn-primary:hover{
+    background-color: darkorange;
+}
+/* Banner */
+.img-banner{
+    background-image: url(../Assets/Hero-bg.png);
+}
+.cont-title{
+    /* border: 2px solid rebeccapurple; */
+    margin: 158px 267.5px 152px;
+    
+}
+.container{
+    display:flex;
+    justify-content: center;
+    
+}
+.container-title{
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+}
+.button-2nd{
+    display: block;
+    margin: auto;
+}
+div a{
+    text-decoration: none;
+}
