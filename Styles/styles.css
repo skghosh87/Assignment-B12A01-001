@@ -70,8 +70,6 @@ nav ul li a{
 .container{
     display:flex;
     justify-content: space-between;
-    
-    
 }
 .container-title{
     font-size: 65px;
@@ -83,10 +81,6 @@ nav ul li a{
 .button-2nd{
     display: block;
     margin: auto;
-    
-
-
-    
 }
 div a{
     text-decoration: none;
@@ -193,8 +187,7 @@ color: #252432;
 .avatar{
     display: flex;
     align-items: center;
-   
-    
+      
 }
 .avatar img{
     width: 40px;
@@ -234,4 +227,40 @@ color: #252432;
 }
 .middle{
     margin:0px 20px;
+}
+/* start focus section */
+.focus-section{
+    width: 1140px;
+    height: 696.77px;
+    margin: 137px 150px;
+    background-color: white;
+    padding: 20px 0px;
+    border-radius: 14px;
+    /* border: 2px solid red;  */
+    
+}
+.focus-container-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    margin: 71px 312px 0px 312px;
+}
+.focus-para{
+    text-align: center;
+    margin: 20px 0px;
+}
+.focus-button-2nd{
+    display: block;
+    margin: auto;
+   
+}
+.focus-cont-title img{
+    display: flex;
+    width: 840px;
+    height: 364.77px;
+    border-image: round;
+    border-radius: 48px;
+    margin: auto;
+    margin-top: 20px;
 }
