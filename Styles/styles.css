@@ -20,6 +20,7 @@
 /* body */
 body{
     max-width: 1440;
+   
 }
 
 /* nav styles */
@@ -137,9 +138,11 @@ color: #252432;
 .productive_user{
     width: 1140px;
     height: 306px;
-    border: 1px solid red;
     margin: 0px 150px;
     border-radius: 48px;
+    /* border: 1px solid red; */
+  background-color: aliceblue;
+   
 }
 .pro_head{
     font-size: 80px;
