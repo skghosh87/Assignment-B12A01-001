@@ -264,3 +264,84 @@ color: #252432;
     margin: auto;
     margin-top: 20px;
 }
+/* Start Newslater section */
+.newslater-section{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 1140px;
+    height: 632px;
+    border: 1px solid red;
+    margin: 0px 150px;
+}
+.newslater-head{
+    font-size: 97px;
+    font-weight: bold;
+    /* margin:92px 150px; */
+    color: #000000;
+}
+.news-column{
+    width: 460px;
+    margin: 71 0 71 450px;
+    overflow: hidden;
+}
+div input[type="email"], div input[type="name"]{
+    height: 20px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 460px;
+    padding: 10px 20px;
+    margin-bottom: 19px;
+    border: none;
+}
+div textarea{
+    height: 135px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 460px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+div input[type="submit"]{
+    width: 460px;
+    padding: 10px 20px;
+    
+}
+/* Footer */
+.footer-section{
+    width: 1440px;
+    /* height: 428px; */
+    background-color: white;
+}
+.footer-subsection{
+    width: 531px;
+    /* height: 221px; */
+    text-align: center;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+div ul li{
+    list-style: none;
+}
+
+.footer-title{
+    font-size: 100px;
+    font-weight: bolder;
+    color: #4E47FF;
+    margin-top: 104px;
+    
+}
+/* div h1{
+    margin:104px 575px 203px 574px;
+} */
+ .
