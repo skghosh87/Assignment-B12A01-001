@@ -20,7 +20,8 @@
 /* body */
 body{
     max-width: 1440;
-   
+   background-color: #F5F8FF;
+  
 }
 
 /* nav styles */
@@ -141,7 +142,7 @@ color: #252432;
     margin: 0px 150px;
     border-radius: 48px;
     /* border: 1px solid red; */
-  background-color: aliceblue;
+  background-color: #E5E7FF;
    
 }
 .pro_head{
